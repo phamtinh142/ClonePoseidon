@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:src="@drawable/phone"
+            android:layout_width="40dp"
+            android:layout_height="40dp" />
+        <TextView
+            android:textColor="@color/colorBlack"
+            android:textSize="16sp"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="center"
+            android:text="Hotline Hỗ trợ từ Poseidon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/txt_phan_hoi_1"
+            android:textSize="18sp"
+            android:text="01683418972"
+            android:textColor="@color/colorblue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_marginLeft="40dp"
+            android:layout_gravity="left"
+            android:text="hoặc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/txt_phan_hoi_2"
+            android:textSize="18sp"
+            android:text="0909900909"
+            android:textColor="@color/colorblue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.DangKyActivity"
+    android:background="@drawable/bgimg">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/bgLogin"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            app:srcCompat="@drawable/logofood"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center" />
+
+        <EditText
+            android:background="@drawable/bg_edt"
+            android:id="@+id/txtemail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:drawableLeft="@drawable/iconuser"
+            android:drawablePadding="10dp"
+            android:ems="10"
+            android:hint="@string/email"
+            android:inputType="textPersonName"
+            android:textColor="@color/colorWhite"
+            android:textColorHint="@color/colorWhite" />
+
+        <EditText
+            android:background="@drawable/bg_edt"
+            android:id="@+id/txtpw"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:drawableLeft="@drawable/iconpw"
+            android:drawablePadding="10dp"
+            android:ems="10"
+            android:hint="@string/pw"
+            android:inputType="textPassword"
+            android:textColor="@color/colorWhite"
+            android:textColorHint="@color/colorWhite" />
+
+        <EditText
+            android:background="@drawable/bg_edt"
+            android:id="@+id/txtrepw"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:drawableLeft="@drawable/iconpw"
+            android:drawablePadding="10dp"
+            android:ems="10"
+            android:hint="@string/nhaplaipw"
+            android:inputType="textPassword"
+            android:textColor="@color/colorWhite"
+            android:textColorHint="@color/colorWhite" />
+
+        <Button
+            android:id="@+id/btdangky"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/radius_button"
+            android:drawablePadding="10dp"
+            android:paddingLeft="60dp"
+            android:paddingRight="60dp"
+            android:text="@string/dangky"
+            android:textColor="@color/colorToolbar" />
+
+        <TextView
+            android:id="@+id/btback"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/radius_button"
+            android:drawablePadding="10dp"
+            android:paddingLeft="60dp"
+            android:paddingRight="60dp"
+            android:text="@string/quaylaitrangchu"
+            android:textColor="@color/colorToolbar" />
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

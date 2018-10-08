@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.BookActivity"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorPrimary">
+        <TextView
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:textSize="24sp"
+            android:text="Sửa đặt bàn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </android.support.v7.widget.Toolbar>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:background="@drawable/bg_edt"
+            android:layout_margin="8dp"
+            android:hint="Tiêu đề"
+            android:id="@+id/edtTitleEditBook"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:background="@drawable/bg_edt"
+            android:layout_margin="8dp"
+            android:id="@+id/edtNameEditBook"
+            android:hint="Họ và tên"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <LinearLayout
+
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <EditText
+                android:background="@drawable/bg_edt"
+                android:layout_weight="1"
+                android:layout_margin="8dp"
+                android:inputType="number"
+                android:hint="Số điện thoại"
+                android:id="@+id/edtPhoneEditBook"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <EditText
+                android:background="@drawable/bg_edt"
+                android:layout_weight="1"
+                android:layout_margin="8dp"
+                android:inputType="number"
+                android:hint="Số người đến"
+                android:id="@+id/edtNumberPeopleEditBook"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Button
+                android:background="@drawable/radius_button"
+                android:layout_margin="8dp"
+                android:layout_weight="1"
+                android:hint="Chọn ngày"
+                android:id="@+id/btnDateEditBook"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <Button
+                android:background="@drawable/radius_button"
+                android:layout_margin="8dp"
+                android:hint="Chọn giờ"
+                android:id="@+id/btnTimeEditBook"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <Button
+        android:background="@drawable/radius_button"
+        android:layout_margin="8dp"
+        android:id="@+id/btnEditBook"
+        android:text="Chỉnh sửa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/txtExitEditBook"
+        android:text="Hủy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

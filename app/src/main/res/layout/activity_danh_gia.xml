@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activity.DanhGiaActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize">
+        <android.support.v7.widget.Toolbar
+            app:titleTextColor="@color/colorWhite"
+            app:title="Phản hồi"
+            android:id="@+id/toolbar_phan_hoi"
+            android:background="@color/colorToolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"></android.support.v7.widget.Toolbar>
+
+        <Button
+            android:textSize="18sp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:id="@+id/btdanhgia"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:text="Gửi"
+            android:textAllCaps="false"
+            android:textColor="@color/colorWhite"
+            />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:paddingRight="20dp"
+        android:paddingLeft="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="20dp"
+            android:paddingTop="10dp"
+            android:text="Nhằm mang đến chất lượng dịch vụ tốt nhất cho khách hàng bạn có thể dành chút thời gian hoàn thành form đánh giá này giúp nhà hàng."
+            android:textColor="@color/colorBlack"
+            android:textSize="15dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="" />
+
+        <com.hsalf.smilerating.SmileRating
+            android:id="@+id/smile_rating"
+            android:layout_marginRight="50dp"
+            android:layout_marginLeft="50dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/txtRateDisplay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dp"
+            android:paddingTop="20dp"
+            android:text="@string/rateview1"
+            android:textColor="@color/colorAccent"
+            android:textSize="15dp" />
+
+        <EditText
+            android:background="@drawable/bg_edt"
+            android:id="@+id/txttieude"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/ratetieude"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:layout_marginTop="10dp"
+            android:id="@+id/txtnoidung"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:gravity="top"
+            android:hint="@string/ratenoidung"
+            android:inputType="text|textMultiLine" />
+
+    </LinearLayout>
+</LinearLayout>

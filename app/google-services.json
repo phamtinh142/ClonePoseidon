@@ -1,0 +1,59 @@
+{
+  "project_info": {
+    "project_number": "749227625512",
+    "firebase_url": "https://poseidon-6e2a0.firebaseio.com",
+    "project_id": "poseidon-6e2a0",
+    "storage_bucket": "poseidon-6e2a0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:749227625512:android:1ae6ccc3bb0d3c9d",
+        "android_client_info": {
+          "package_name": "com.arsenal.santiha.cloneposeidon"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "749227625512-msulg62c2b30q4o66djq12fh6kb0o54o.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.arsenal.santiha.cloneposeidon",
+            "certificate_hash": "48e2b567ccac601522e5f5fb3a10dc8aa93918c8"
+          }
+        },
+        {
+          "client_id": "749227625512-gm4hs8rd5ssg1j4fn9bho419f9pe7le5.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "749227625512-gm4hs8rd5ssg1j4fn9bho419f9pe7le5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAJftRyDHG1b_FePiQFjhroDjV71PRwQUs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "749227625512-gm4hs8rd5ssg1j4fn9bho419f9pe7le5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

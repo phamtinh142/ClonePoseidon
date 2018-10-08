@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff">
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:background="@drawable/bg_user_profile">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/bgProfile"
+                    android:orientation="vertical">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/img_logo_user"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="20dp"
+                        android:src="@drawable/logo_user"
+                        app:civ_border_color="@color/colorToolbar"
+                        app:civ_border_overlay="true"
+                        app:civ_border_width="2dp" />
+
+                    <Button
+                        android:textAllCaps="false"
+                        android:id="@+id/btn_login"
+                        android:layout_width="wrap_content"
+                        android:layout_height="30dp"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="30dp"
+                        android:background="@drawable/radius_button"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:text="@string/dangnhapdangkynhanuudai"
+                        android:textColor="@color/colorToolbar"
+                        android:textSize="14sp" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                        <View
+                            android:layout_width="40dp"
+                            android:layout_height="1dp"/>
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:background="@color/colorToolbar" />
+                    </LinearLayout>
+
+                    <Button
+                        android:drawablePadding="5dp"
+                        android:drawableLeft="@drawable/diemtichluy"
+                        android:id="@+id/btn_diem_tich_luy"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:background="@drawable/bg_option_profile"
+                        android:drawableRight="@drawable/nextpage"
+                        android:gravity="start|center_vertical"
+                        android:padding="5dp"
+                        android:text="@string/diemtichluy"
+                        android:textAllCaps="false" />
+
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                        <View
+                            android:layout_width="40dp"
+                            android:layout_height="1dp"/>
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:background="@color/colorToolbar" />
+                    </LinearLayout>
+
+                    <Button
+                        android:drawablePadding="5dp"
+                        android:drawableLeft="@drawable/account"
+                        android:id="@+id/btn_thong_tin_ca_nhan"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:background="@drawable/bg_option_profile"
+                        android:drawableRight="@drawable/nextpage"
+                        android:gravity="start|center_vertical"
+                        android:padding="5dp"
+                        android:text="@string/thongtincanhan"
+                        android:textAllCaps="false" />
+
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                        <View
+                            android:layout_width="40dp"
+                            android:layout_height="1dp"/>
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:background="@color/colorToolbar" />
+                    </LinearLayout>
+
+                    <Button
+                        android:drawablePadding="5dp"
+                        android:drawableLeft="@drawable/lichsudatban"
+                        android:id="@+id/btn_lich_su_dat_ban"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:background="@drawable/bg_option_profile"
+                        android:drawableRight="@drawable/nextpage"
+                        android:gravity="start|center_vertical"
+                        android:padding="5dp"
+                        android:text="@string/lichsudatban"
+                        android:textAllCaps="false" />
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                        <View
+                            android:layout_width="40dp"
+                            android:layout_height="1dp"/>
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:background="@color/colorToolbar" />
+                    </LinearLayout>
+
+                    <Button
+                        android:drawablePadding="5dp"
+                        android:drawableLeft="@drawable/danhgia"
+                        android:id="@+id/btn_phan_hoi"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:background="@drawable/bg_option_profile"
+                        android:drawableRight="@drawable/nextpage"
+                        android:gravity="start|center_vertical"
+                        android:padding="5dp"
+                        android:text="@string/phanhoi"
+                        android:textAllCaps="false" />
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                        <View
+                            android:layout_width="40dp"
+                            android:layout_height="1dp"/>
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:background="@color/colorToolbar" />
+                    </LinearLayout>
+
+                    <Button
+                        android:drawablePadding="5dp"
+                        android:drawableLeft="@drawable/hotro"
+                        android:id="@+id/btn_ho_tro"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:background="@drawable/bg_option_profile"
+                        android:drawableRight="@drawable/nextpage"
+                        android:gravity="start|center_vertical"
+                        android:padding="5dp"
+                        android:text="@string/hotro"
+                        android:textAllCaps="false" />
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                        <View
+                            android:layout_width="40dp"
+                            android:layout_height="1dp"/>
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:background="@color/colorToolbar" />
+                    </LinearLayout>
+
+                    <Button
+                        android:drawablePadding="5dp"
+                        android:drawableLeft="@drawable/dangxuat"
+                        android:id="@+id/btn_dang_xuat"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:background="@drawable/bg_option_profile"
+                        android:drawableRight="@drawable/nextpage"
+                        android:gravity="start|center_vertical"
+                        android:padding="5dp"
+                        android:text="@string/logout"
+                        android:textAllCaps="false" />
+
+                </android.support.v7.widget.CardView>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="57dp" />
+            </LinearLayout>
+        </LinearLayout>
+
+    </android.support.v4.widget.NestedScrollView>
+
+</android.support.design.widget.CoordinatorLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ff2d38</color>
+    <color name="colorPrimaryDark">#ff2d38</color>
+    <color name="colorAccent">#ff2d38</color>
+    <color name="colorToolbar">#ff2d38</color>
+    <color name="colorWhite">#fff</color>
+    <color name="colorBlack">#000</color>
+    <color name="colorView">#898989</color>
+    <color name="colorblue">#3292ce</color>
+    <color name="bgLogin">#baff6f00</color>
+    <color name="bgProfile">#38ff6f00</color>
+</resources>

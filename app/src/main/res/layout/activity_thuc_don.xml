@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/thuc_don"
+    tools:context=".Activity.ThucDonActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:layout_alignParentTop="true"
+        android:id="@+id/toolbar_thuc_don"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorToolbar">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_centerVertical="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/logo" />
+
+            <RadioGroup
+                android:background="@drawable/custom_radiogroup_thucdon"
+                android:id="@+id/radiogroupthucdon"
+                android:orientation="horizontal"
+                android:layout_centerInParent="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:textColor="@drawable/changetext_thucdon"
+                    android:id="@+id/radiobuttondoan"
+                    android:textAlignment="center"
+                    android:padding="8dp"
+                    android:text="@string/doan"
+                    android:layout_width="70dp"
+                    android:layout_height="wrap_content"
+                    android:button="@android:color/transparent"
+                    android:background="@drawable/custom_radio_thucdon"
+                    android:checked="true"/>
+                <RadioButton
+                    android:textColor="@drawable/changetext_thucdon"
+                    android:id="@+id/radiobuttondouong"
+                    android:textAlignment="center"
+                    android:padding="8dp"
+                    android:text="@string/douong"
+                    android:layout_width="70dp"
+                    android:layout_height="wrap_content"
+                    android:button="@android:color/transparent"
+                    android:background="@drawable/custom_radio_thucdon"/>
+
+            </RadioGroup>
+        </RelativeLayout>
+
+    </android.support.v7.widget.Toolbar>
+
+
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewpager_thuc_don"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </android.support.v4.view.ViewPager>
+
+    <!--<RadioGroup-->
+        <!--android:id="@+id/radiogroup_doan"-->
+        <!--android:orientation="horizontal"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:weightSum="2"-->
+        <!--android:layout_height="50dp">-->
+
+        <!--<RadioButton-->
+            <!--android:background="@drawable/custom_radio_doan"-->
+            <!--android:textColor="@drawable/changetext_doan"-->
+            <!--android:id="@+id/radiobutton_hangngay"-->
+            <!--android:textAlignment="center"-->
+            <!--android:layout_weight="1"-->
+            <!--android:text="@string/thucdonhangngay"-->
+            <!--android:button="@android:color/transparent"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:checked="true"/>-->
+
+        <!--<RadioButton-->
+            <!--android:background="@drawable/custom_radio_doan"-->
+            <!--android:textColor="@drawable/changetext_doan"-->
+            <!--android:id="@+id/radiobutton_cuoituan"-->
+            <!--android:textAlignment="center"-->
+            <!--android:layout_weight="1"-->
+            <!--android:text="@string/thucdoncuoituan"-->
+            <!--android:button="@android:color/transparent"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="match_parent" />-->
+
+    <!--</RadioGroup>-->
+
+
+</LinearLayout>

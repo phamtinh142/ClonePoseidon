@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activity.ThongTinUserActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize">
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar_thong_tin_user"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/colorToolbar"
+            app:title="Thông tin cá nhân"
+            app:titleTextColor="@color/colorWhite">
+
+        </android.support.v7.widget.Toolbar>
+
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/txtcapnhat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:text="Thông tin cá nhân"
+        android:textSize="24sp" />
+
+    <LinearLayout
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical">
+
+        <EditText
+            android:background="@drawable/bg_edt"
+            android:layout_margin="10dp"
+            android:id="@+id/edthoten"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Họ tên"
+            android:inputType="textPersonName" />
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:inputType="number"
+                android:id="@+id/edtDayProfile"
+                android:layout_margin="10dp"
+                android:background="@drawable/bg_edt"
+                android:layout_weight="1"
+                android:hint="Ngày sinh"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <EditText
+                android:inputType="number"
+                android:id="@+id/edtMonthProfile"
+                android:layout_margin="10dp"
+                android:background="@drawable/bg_edt"
+                android:layout_weight="1"
+                android:hint="Tháng"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <EditText
+                android:inputType="number"
+                android:id="@+id/edtYearProfire"
+                android:layout_margin="10dp"
+                android:background="@drawable/bg_edt"
+                android:layout_weight="1"
+                android:hint="Năm"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <EditText
+            android:inputType="number"
+            android:background="@drawable/bg_edt"
+            android:layout_margin="10dp"
+            android:id="@+id/edtsodienthoai"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Số điện thoại" />
+
+        <LinearLayout
+            android:layout_margin="10dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Button
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/radius_button"
+                android:textSize="18sp"
+                android:id="@+id/btncapnhat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Cập nhật"
+                android:textAllCaps="false" />
+            <Button
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/radius_button"
+                android:textSize="18sp"
+                android:id="@+id/btndong"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Đóng"
+                android:textAllCaps="false"
+                />
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+</LinearLayout>

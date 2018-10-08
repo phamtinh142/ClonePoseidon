@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activity.GioiThieuActivity">
+
+    <android.support.v7.widget.Toolbar
+        app:titleTextColor="@color/colorWhite"
+        app:title="Giới thiệu"
+        android:id="@+id/toolbar_gioi_thieu"
+        android:background="@color/colorToolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:padding="10dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:gravity="center_horizontal"
+                android:text="27 Lê Văn Lương, T4+5, CC Center Point, Q. Thanh Xuân"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:textColor="#3d3d3d"
+                android:gravity="center_horizontal"
+                android:text="Giờ đón khách : 11h00 - 14h00 và 17h00 - 22h00"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <LinearLayout
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:textColor="#3d3d3d"
+                    android:text="Khoảng giá : "
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:textColor="#ff0000"
+                    android:text="328.000 - 372.000 vnđ/người"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+            <TextView
+                android:textColor="#f00"
+                android:textSize="18sp"
+                android:text="Giới thiệu Buffet Poseidon - Lê Văn Lương"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <View
+                android:layout_marginTop="5dp"
+                android:background="@drawable/bg_view_profile"
+                android:layout_width="100dp"
+                android:layout_height="3dp"/>
+            <com.google.android.youtube.player.YouTubePlayerView
+                android:layout_marginTop="15dp"
+                android:id="@+id/video_ytb_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_marginTop="5dp"
+                android:text="KHÔNG GIAN:"
+                android:textColor="@color/colorBlack"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_marginTop="5dp"
+                android:text="Poseidon được thiết kế với concept vô cùng tinh tế từ màu sắc, cách bài trí và những khu vực đi kèm."
+                android:textColor="@color/colorToolbar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+
+            <ImageView
+                android:id="@+id/img_gioi_thieu_1"
+                android:scaleType="fitXY"
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="200dp" />
+            <TextView
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="5dp"
+                android:text="Hiện đại."
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+                android:id="@+id/img_gioi_thieu_2"
+                android:scaleType="fitXY"
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="200dp" />
+            <TextView
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="5dp"
+                android:text="Phòng riêng : 02 phòng (24 - 40 Khách)"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <ImageView
+                android:id="@+id/img_gioi_thieu_3"
+                android:scaleType="fitXY"
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="200dp" />
+            <ImageView
+                android:id="@+id/img_gioi_thieu_4"
+                android:scaleType="fitXY"
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="200dp" />
+
+            <TextView
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="5dp"
+                android:text="Sức chứa: 600 Khách"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+
+            <TextView
+                android:layout_marginTop="5dp"
+                android:text="ĐIỂM ĐẶC TRƯNG:"
+                android:textColor="@color/colorBlack"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_marginTop="5dp"
+                android:text="Món ngon từ hải sản đến các loại thịt mang đủ sắc - vị - hương của ẩm thực Á – Âu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <View
+                android:layout_marginTop="5dp"
+                android:background="@drawable/bg_view_profile"
+                android:layout_width="60dp"
+                android:layout_height="2dp"/>
+            <LinearLayout
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:text="Giá "
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:textColor="#f00"
+                    android:text=" BUFFET "
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:text=" (vnđ/suất) :"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_weight="5"
+                android:layout_marginTop="8dp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_weight="3"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:text="Buổi trưa từ T2 - T6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:layout_marginTop="5dp"
+                        android:text="Buổi tối từ T2 - T5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:layout_marginTop="5dp"
+                        android:text="Buổi tối T6 và cả ngày T7, CN"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+                <LinearLayout
+                    android:paddingLeft="10dp"
+                    android:orientation="vertical"
+                    android:layout_weight="2"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:textColor="#f00"
+                        android:text="298.000"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:textColor="#f00"
+                        android:layout_marginTop="5dp"
+                        android:text="318.000"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:textColor="#f00"
+                        android:layout_marginTop="5dp"
+                        android:text="338.000"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+            </LinearLayout>
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
